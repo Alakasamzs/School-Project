@@ -1,0 +1,133 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Titillium+Web&display=swap');
+
+/* Main Styling */
+html {
+	background: #202020;
+	overflow: auto;
+	color: white;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+	width: 100px;
+}
+
+#divider {
+	width: 600px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.button-30 {
+  align-items: center;
+  appearance: none;
+  background-color: #080808;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,rgb(27, 27, 27) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 10px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.button-30:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.button-30:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-30:active {
+  box-shadow: black 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+#nav-bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #151515;
+  border-radius: 10px;
+}
+/* Upper Div */
+#upper-div {
+	background: #151515;
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+	margin: 20px;
+	padding: 10px;
+	border-radius: 20px;
+}
+
+/* Desc Div */
+#desc-div {
+	background: #151515;
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+	margin-top: 20px;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-bottom: 20px;
+	padding: 10px;
+	border-radius: 20px;
+}
+#manual-div {
+	background: #151515;
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+	margin-top: 20px;
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-bottom: 20px;
+	padding: 10px;
+	border-radius: 20px;
+}
+
+/* Tip-Div */
+#tip-div {
+	background: #151515;
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+	margin-top: 20px;
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-bottom: 20px;
+	padding: 10px;
+	border-radius: 20px;
+}
+
+/* Footer-Div */
+#footer-div {
+	background: #151515;
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+	margin-top: 10px;
+	margin-left: 450px;
+	margin-right: 450px;
+	margin-bottom: 20px;
+	padding: 10px;
+	border-radius: 20px;
+}
